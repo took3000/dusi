@@ -171,44 +171,6 @@ var _hmt = _hmt || [];
 
     
 
-<script>
-    //debug调试时跳转页面
-var element = new Image();
-Object.defineProperty(element,'id',{get:function(){window.location.href="http://www.lg3000.top"}});
-console.log(element);
-</script>
-
-<script>  
-    (function noDebuger(){
-    function testDebuger(){
-        var d=new Date();
-        debugger;
-        if(new Date()-d>10){
-            document.body.innerHTML='<div>大佬，求放过~<br>请刷新页面继续浏览</div>';
-            return true;
-        }
-        return false;
-    }
- 
-    function start(){
-        while(testDebuger()){
-            testDebuger();
-        }
-    }
-    if(!testDebuger()) {
-        window.onblur = function(){
-            setTimeout(function(){
-                start();
-            },500)
-        }
-    }
-    else{
-        start();
-    }
- 
-})();
-
- </script>
 
 
 <script Language=javascript>
