@@ -388,8 +388,8 @@ footer p {
 
 .link_item .content .category999{display:inline-block;overflow:visible;margin-top:16px;margin-left:0;border-radius: 14px 6px;margin-right:3px;padding:0px 12px;font-weight:600;font-size:11px;position: absolute;
     left: 2px;
-    top: -14px;background-color:#ffefda;color:#ff6000;line-height:20px;transform-style:preserve-3d;-webkit-transition:.3s linear;transition:.3s linear}
-.link_item .content:hover .category999{font-size:12px;transform-style:preserve-3d;-webkit-transition:.3s linear;transition:.3s linear}
+    top: -14px;background-color:#000;color:#fff;line-height:20px;transform-style:preserve-3d;-webkit-transition:.3s linear;transition:.3s linear}
+.link_item .content:hover .category999{font-size:12px;transform-style:preserve-3d;-webkit-transition:.3s linear;transition:.3s linear;background-color:#1f883d;}
 
 
 .link_itex .content:hover{border-radius: 16px;
